@@ -1,0 +1,8 @@
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    checkMissingIterableValueType: false
+    excludes_analyse:
+        - "src/Providers/BadgesServiceProvider.php"

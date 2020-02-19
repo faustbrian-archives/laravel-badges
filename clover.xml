@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1582085988">
+  <project timestamp="1582085988">
+    <package name="KodeKeep\Badges\Concerns">
+      <file name="/Users/brian/Code/kodekeep/laravel-badges/src/Concerns/HasBadges.php">
+        <class name="HasBadges" namespace="KodeKeep\Badges\Concerns">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="21" type="method" name="badges" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <metrics loc="25" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="KodeKeep\Badges\Models">
+      <file name="/Users/brian/Code/kodekeep/laravel-badges/src/Models/Badge.php">
+        <class name="KodeKeep\Badges\Models\Badge" namespace="KodeKeep\Badges\Models">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="26" type="method" name="findByslug" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="31" type="method" name="getSlugOptions" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <metrics loc="35" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <metrics files="2" loc="60" ncloc="44" classes="2" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+  </project>
+</coverage>
