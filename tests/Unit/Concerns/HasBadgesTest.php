@@ -13,18 +13,16 @@ declare(strict_types=1);
 
 namespace KodeKeep\Badges\Tests\Unit\Concerns;
 
-use KodeKeep\Badges\Models\Badge;
-use KodeKeep\Badges\Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use KodeKeep\Badges\Tests\Unit\ClassThatHasBadges;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;
+use KodeKeep\Badges\Tests\TestCase;
+use KodeKeep\Badges\Tests\Unit\ClassThatHasBadges;
 
 /**
  * @covers \KodeKeep\Badges\Concerns\HasBadges
  */
-class HasBadges extends TestCase
+class HasBadgesTest extends TestCase
 {
     use RefreshDatabase;
 

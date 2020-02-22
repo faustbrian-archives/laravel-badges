@@ -14,12 +14,16 @@ declare(strict_types=1);
 namespace KodeKeep\Badges\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use KodeKeep\Badges\Models\Badge;
+use Illuminate\Support\Facades\Config;
 
 trait HasBadges
 {
     public function badges(): MorphToMany
     {
-        return $this->morphToMany(Badge::class, 'model', 'badgeables');
+        return $this->morphToMany(
+            Config::get('badges.models.badge'),
+            'model',
+            Config::get('badges.tables.model_has_badges')
+        );
     }
 }
