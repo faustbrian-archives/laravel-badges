@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Laravel Invitations.
+ * This file is part of Laravel Badges.
  *
  * (c) KodeKeep <hello@kodekeep.com>
  *
