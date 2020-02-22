@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 1.1.0 - 2020-02-22
+
+### Changed
+
+- Make database tables and models configurable
+
 ## 1.0.0 - 2020-02-19
 
 - initial release
