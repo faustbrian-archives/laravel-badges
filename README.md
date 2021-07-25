@@ -1,18 +1,18 @@
 # Laravel Badges
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-badges)](https://packagist.org/packages/kodekeep/laravel-badges)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-badges)](https://packagist.org/packages/kodekeep/laravel-badges)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-badges/run-tests?label=tests)](https://github.com/kodekeep/laravel-badges/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-badges)](https://codeclimate.com/github/kodekeep/laravel-badges)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-badges)](https://codeclimate.com/github/kodekeep/laravel-badges)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-badges)](https://packagist.org/packages/kodekeep/laravel-badges)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-badges)](https://packagist.org/packages/konceiver/laravel-badges)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-badges)](https://packagist.org/packages/konceiver/laravel-badges)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-badges/run-tests?label=tests)](https://github.com/konceiver/laravel-badges/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-badges)](https://codeclimate.com/github/konceiver/laravel-badges)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-badges)](https://codeclimate.com/github/konceiver/laravel-badges)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-badges)](https://packagist.org/packages/konceiver/laravel-badges)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides associations for badges and Laravel Eloquent Models.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-badges
+composer require konceiver/laravel-badges
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ composer require kodekeep/laravel-badges
 ``` php
 namespace App;
 
-use KodeKeep\Badges\Concerns\HasBadges;
+use Konceiver\Badges\Concerns\HasBadges;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
@@ -45,7 +45,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 

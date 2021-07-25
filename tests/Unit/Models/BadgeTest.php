@@ -5,20 +5,20 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Badges.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Badges\Tests\Unit\Models;
+namespace Konceiver\Badges\Tests\Unit\Models;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use KodeKeep\Badges\Models\Badge;
-use KodeKeep\Badges\Tests\TestCase;
+use Konceiver\Badges\Models\Badge;
+use Konceiver\Badges\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Badges\Models\Badge
+ * @covers \Konceiver\Badges\Models\Badge
  */
 class BadgeTest extends TestCase
 {
